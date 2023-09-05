@@ -4,7 +4,11 @@
 """
 
 # my_list = ['a', 'b', [1, 2, 3], 'd']
+<<<<<<< HEAD
 # print(my_list[2])
+=======
+# print(*my_list[2], sep='\n')
+>>>>>>> f964908 (Initial commit)
 
 """
 3.2 Дан список list_1 = ['Hi', 'ananas', 2, None, 75, 'pizza', 36, 100]
@@ -19,6 +23,17 @@
 #         list_2.append(i)
 # print(sum(list_2))
 
+<<<<<<< HEAD
+=======
+# sum = 0
+# for i in list_1:
+#     if isinstance(i, int):
+#         sum += i
+# print(sum)
+
+# print(sum([x for x in list_1 if isinstance(x, int)]))
+
+>>>>>>> f964908 (Initial commit)
 # list_3 = []
 # for i in list_1:
 #     if isinstance(i, str):
@@ -28,6 +43,11 @@
 #     if 'a' in i:
 #         print(i)
 
+<<<<<<< HEAD
+=======
+# print(*[x for x in list_1 if isinstance(x, str) and 'a' in x], sep = ', ')
+
+>>>>>>> f964908 (Initial commit)
 """
 3.3 Превратите лист ['cat', 'dog', 'horse', 'cow'] в кортеж
 """
@@ -43,6 +63,7 @@
      Ожидаемый результат - программа выводит семью с бОльшим составом. 
      Если состав одинаковый, print("Equal')
 """
+<<<<<<< HEAD
 # family_1 = [item for item in input('Please enter the members of the first family: ').split(',')]
 # print(family_1)
 # family_2 = [item for item in input('Please enter the members of the second family: ').split(',')]
@@ -56,6 +77,14 @@
 # if len(family_1_num) > len(family_2_num):
 #     print(family_1)
 # elif len(family_2_num) == len(family_1_num):
+=======
+# family_1 = (tuple(input('Please enter the members of the first family: ').split(',')))
+# family_2 = (tuple(input('Please enter the members of the second family: ').split(',')))
+#
+# if len(family_1) > len(family_2):
+#     print(family_1)
+# elif len(family_2) == len(family_1):
+>>>>>>> f964908 (Initial commit)
 #     print('Equal')
 # else:
 #     print(family_2)
@@ -110,11 +139,18 @@ set_2 = {5, 'z', 1, 8, 9, 21, 100, 'l', 785}
 # print(set_2.intersection(set_1))
 
 # print(set_1 ^ set_2)
+<<<<<<< HEAD
 #
 # print(set_2.difference(set_1))
 # print(set_1.difference(set_2))
 
 # print(set_1.issubset(set_2))
+=======
+# print(set_1.symmetric_difference(set_2))
+
+# print(set_1.issubset(set_2))
+# print(set_2.issubset(set_1))
+>>>>>>> f964908 (Initial commit)
 
 # seq = list('абвгде')
 # for i, val in enumerate(seq, 1):

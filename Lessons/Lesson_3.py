@@ -2,8 +2,13 @@
 Списки - хранят набор или последовательность элементов, могут хранить разные типы данных,
 изменяемая структура данных
 """
+<<<<<<< HEAD
 lst = [10, 'Hello', False, None, True, 25, True, 26.5]
 print(lst.count(True))
+=======
+# lst = [10, 'Hello', False, None, True, 25, True, 26.5]
+# print(lst.count(True))
+>>>>>>> f964908 (Initial commit)
 # print(lst.index(True))
 # lst2 = [x for x in lst if isinstance(x, int)]
 # print(lst2)
@@ -47,7 +52,11 @@ print(lst.count(True))
 """
 Генерация списков
 """
+<<<<<<< HEAD
 lst = [1, 2, 3, 4, 5, 6]
+=======
+# lst = [1, 2, 3, 4, 5, 6]
+>>>>>>> f964908 (Initial commit)
 # lst2 = []
 # for number in lst:
 #     if number % 2 == 0:
@@ -56,6 +65,34 @@ lst = [1, 2, 3, 4, 5, 6]
 #
 # lst3 = [num * num for num in lst if num % 2 == 0]
 # print(lst3)
+<<<<<<< HEAD
+=======
+
+# lst4 = list(range(10, 50))
+# print(lst4)
+
+""" 
+Срезы списков - в [] указываем с какого элемента:по какой (НЕ в ключительно):шаг
+"""
+# lst5 = [3, 7, 'a', None, True, 56.9, 'Hello']
+# print(lst5[2:6:2])
+# print(lst5[2:7:2])
+
+""" 
+Генерация вложенных списков - enumerate
+"""
+s1 = 'My name is Sab\nina'
+# s1 = 'My name is Sabina'
+# lst6 = list(s1.split())
+# lst6 = list(s1.split(' '))
+# lst6 = list(word for word in s1.split())
+# lst6 = [[char for char in word] for word in s1.split()]
+
+# lst6 = [[char for i, char in enumerate(word)] for word in s1.split()]
+# lst6 = [[i for i, char in enumerate(word)] for word in s1.split()]
+# lst6 = [[i for i, char in enumerate(word)] for word in s1.split()]
+# print(lst6)
+>>>>>>> f964908 (Initial commit)
 """
 Вложенные списки
 """
@@ -84,7 +121,36 @@ lst = [1, 2, 3, 4, 5, 6]
 #
 # print(sum_it(2, 5, 8, 25))
 # print(sum_it(2, 5, 8, 25, 2, 5, 8, 25))
+<<<<<<< HEAD
 
+=======
+"""
+Функции листа
+"""
+# .append(): adds only one element in a list fruits.append('Grapes')
+# .pop() function removes (last) element from a list
+
+# .extend(): adds multiple element in a list fruits.extend(['Grapes', 'kiwi', 'pears'])
+# .insert(): adds an element at a particular position using an index fruits.insert(0, 'banana')
+# .index(element)
+
+s1 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+lst = list(s1)
+lst = [word for word in s1.split()][::-1]
+# print(lst)
+
+# for i in range(len(lst)):
+#     print(lst.pop())
+#     print(f'lst - {lst}')
+
+# lst = lst + lst
+# print(lst)
+
+# lst.insert(2, 2222)
+# print(lst)
+
+print(lst.index('sit'))
+>>>>>>> f964908 (Initial commit)
 """
 Отсортировать лист
 """
@@ -110,6 +176,7 @@ lst = [1, 2, 3, 4, 5, 6]
 """
 Словарь
 """
+<<<<<<< HEAD
 my_dict2 = {
     'name': 'Alex',
     'last_name': 'Smith',
@@ -121,6 +188,19 @@ my_dict2.setdefault('salary', 5000)
 x = my_dict2.setdefault('salary', 10000)
 
 print(my_dict2)
+=======
+# my_dict2 = {
+#     'name': 'Alex',
+#     'last_name': 'Smith',
+#     'age': 25,
+#     'dep': 'DEV'
+# }
+# my_dict2.setdefault('salary', 5000)
+# my_dict2['salary'] = 1000
+# x = my_dict2.setdefault('salary', 10000)
+
+# print(my_dict2)
+>>>>>>> f964908 (Initial commit)
 # my_dict2['salary'] = 5000
 # print(my_dict2)
 # print(my_dict2.pop('salary'))

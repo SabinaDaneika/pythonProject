@@ -54,6 +54,36 @@
 # * * * * * *
 # """)
 
+<<<<<<< HEAD
+=======
+"""
+Write a function to convert a name into initials. 
+This kata strictly takes two words with one space in between them.
+The output should be two capital letters with a dot separating them.
+
+It should look like this:
+
+Sam Harris => S.H
+
+patrick feeney => P.F
+"""
+def abbrev_name(name):
+    first, second = name.upper().split(' ')
+    return f'{first[0]}.{second[0]}'
+
+"""
+Write a function to split a string and convert it into an array of words.
+
+Examples (Input ==> Output):
+"Robin Singh" ==> ["Robin", "Singh"]
+
+"I love arrays they are my favorite" ==> 
+["I", "love", "arrays", "they", "are", "my", "favorite"]
+"""
+def string_to_array(s):
+    return s.split(' ')
+
+>>>>>>> f964908 (Initial commit)
 
 
 
