@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # from functools import reduce
 # from math import prod
 #import math
@@ -27,7 +25,6 @@
 # print(math.prod(l))
 # print(prod(l))
 
->>>>>>> f964908 (Initial commit)
 """
 Встроенный метод min
 """
@@ -53,8 +50,8 @@
 # print(person(first_name='Anna', last_name='Ivanova', 25))
 # print(person(25, first_name='Anna', last_name='Ivanova'))
 
-def pattern(length, char_1=' ', char_2='*'):
-    return (char_2 + char_1) * length + char_1
+# def pattern(length, char_1=' ', char_2='*'):
+#     return (char_2 + char_1) * length + char_1
 # print(pattern(9))
 # print(pattern(9, char_1='/'))
 # print(pattern(char_1='/', 9))
@@ -63,7 +60,6 @@ def pattern(length, char_1=' ', char_2='*'):
 """
 Декораторы
 """
-<<<<<<< HEAD
 # def decorator_function(func):
 #     def wrapper():
 #         print('Wrapper function')
@@ -108,52 +104,50 @@ def pattern(length, char_1=' ', char_2='*'):
 #     return f'{item} is wrapped'
 #
 # hello('Candy')
-=======
-def decorator_function(func):
-    def wrapper():
-        print('Wrapper function')
-        print(f'Wrapped function: {func.__name__}')
-        print('Wrapped function in process')
-        print(func())
-        print('Exiting wrapper')
-    return wrapper
+# def decorator_function(func):
+#     def wrapper():
+#         print('Wrapper function')
+#         print(f'Wrapped function: {func.__name__}')
+#         print('Wrapped function in process')
+#         print(func())
+#         print('Exiting wrapper')
+#     return wrapper
 
-@decorator_function
-def hello():
-    return 'I\'m wrapped function'
+# @decorator_function
+# def hello():
+#     return 'I\'m wrapped function'
 
-hello()
-
-def decorator_function(func):
-    def wrapper(*args):
-        print('Wrapper function')
-        print(f'Wrapped function: {func.__name__}')
-        print('Wrapped function in process')
-        print(func(*args))
-        print('Exiting wrapper')
-    return wrapper
-
-@decorator_function
-def hello(item):
-    return f'{item} is wrapped'
-
-hello('Candy')
-
-def decorator_function(func):
-    def wrapper(*args):
-        print('Wrapper function')
-        print(f'Calling function: {func.__name__}')
-        print(f'With arguments: {args}')
-        print(func(*args))
-        print('Exiting wrapper')
-    return wrapper
-
-@decorator_function
-def hello(item):
-    return f'{item} is wrapped'
-
-hello('Candy')
->>>>>>> f964908 (Initial commit)
+# hello()
+#
+# def decorator_function(func):
+#     def wrapper(*args):
+#         print('Wrapper function')
+#         print(f'Wrapped function: {func.__name__}')
+#         print('Wrapped function in process')
+#         print(func(*args))
+#         print('Exiting wrapper')
+#     return wrapper
+#
+# @decorator_function
+# def hello(item):
+#     return f'{item} is wrapped'
+#
+# hello('Candy')
+#
+# def decorator_function(func):
+#     def wrapper(*args):
+#         print('Wrapper function')
+#         print(f'Calling function: {func.__name__}')
+#         print(f'With arguments: {args}')
+#         print(func(*args))
+#         print('Exiting wrapper')
+#     return wrapper
+#
+# @decorator_function
+# def hello(item):
+#     return f'{item} is wrapped'
+#
+# hello('Candy')
 
 """
 Пространство имён (Namespace):
@@ -188,11 +182,8 @@ Local - имена внутри функции
 # result = lambda n: n*n
 # print(result(5))
 
-<<<<<<< HEAD
 # list_1 = [1, 100, 'Hello', None, 35, True, 76, 19]
-=======
 # list_1 = [1, 100, 'Hello', 'pizza', 'hi', 'ananas', None, 35, True, 76, 19]
->>>>>>> f964908 (Initial commit)
 # new_list = []
 # def filter_and_sum(lst):
 #     for x in lst:
@@ -202,8 +193,6 @@ Local - имена внутри функции
 #
 # print(filter_and_sum(list_1))
 
-<<<<<<< HEAD
-=======
 # new_list = sum(filter(lambda x: isinstance(x, int), list_1))
 # print(new_list)
 # filtered = list(filter(lambda x: isinstance(x, str), list_1))
@@ -237,7 +226,7 @@ Local - имена внутри функции
 # my_set = {2, 4, 6, 8, 1, 7, 9}
 # print(sorted(my_set))
 
-my_dict = {1: 'q', 2: 'w', 3: 'z'}
+# my_dict = {1: 'q', 2: 'w', 3: 'z'}
 
 # for keys in my_dict:
 #     print(keys)
@@ -350,17 +339,9 @@ my_dict = {1: 'q', 2: 'w', 3: 'z'}
 #
 # print(is_palindrom('шалаши'))
 
-numbers = [1, 2, 3, 4, 5, 6, 7, 8]
-print(list(filter(lambda x: x % 2 == 0, numbers)))
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+# print(list(filter(lambda x: x % 2 == 0, numbers)))
 
-
-
-
-
-
-
-
->>>>>>> f964908 (Initial commit)
 
 
 

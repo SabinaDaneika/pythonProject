@@ -2,13 +2,10 @@
 Списки - хранят набор или последовательность элементов, могут хранить разные типы данных,
 изменяемая структура данных
 """
-<<<<<<< HEAD
-lst = [10, 'Hello', False, None, True, 25, True, 26.5]
-print(lst.count(True))
-=======
 # lst = [10, 'Hello', False, None, True, 25, True, 26.5]
 # print(lst.count(True))
->>>>>>> f964908 (Initial commit)
+# lst = [10, 'Hello', False, None, True, 25, True, 26.5]
+# print(lst.count(True))
 # print(lst.index(True))
 # lst2 = [x for x in lst if isinstance(x, int)]
 # print(lst2)
@@ -52,11 +49,8 @@ print(lst.count(True))
 """
 Генерация списков
 """
-<<<<<<< HEAD
-lst = [1, 2, 3, 4, 5, 6]
-=======
 # lst = [1, 2, 3, 4, 5, 6]
->>>>>>> f964908 (Initial commit)
+# lst = [1, 2, 3, 4, 5, 6]
 # lst2 = []
 # for number in lst:
 #     if number % 2 == 0:
@@ -65,8 +59,6 @@ lst = [1, 2, 3, 4, 5, 6]
 #
 # lst3 = [num * num for num in lst if num % 2 == 0]
 # print(lst3)
-<<<<<<< HEAD
-=======
 
 # lst4 = list(range(10, 50))
 # print(lst4)
@@ -81,7 +73,7 @@ lst = [1, 2, 3, 4, 5, 6]
 """ 
 Генерация вложенных списков - enumerate
 """
-s1 = 'My name is Sab\nina'
+# s1 = 'My name is Sab\nina'
 # s1 = 'My name is Sabina'
 # lst6 = list(s1.split())
 # lst6 = list(s1.split(' '))
@@ -92,7 +84,6 @@ s1 = 'My name is Sab\nina'
 # lst6 = [[i for i, char in enumerate(word)] for word in s1.split()]
 # lst6 = [[i for i, char in enumerate(word)] for word in s1.split()]
 # print(lst6)
->>>>>>> f964908 (Initial commit)
 """
 Вложенные списки
 """
@@ -121,9 +112,7 @@ s1 = 'My name is Sab\nina'
 #
 # print(sum_it(2, 5, 8, 25))
 # print(sum_it(2, 5, 8, 25, 2, 5, 8, 25))
-<<<<<<< HEAD
 
-=======
 """
 Функции листа
 """
@@ -134,9 +123,9 @@ s1 = 'My name is Sab\nina'
 # .insert(): adds an element at a particular position using an index fruits.insert(0, 'banana')
 # .index(element)
 
-s1 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
-lst = list(s1)
-lst = [word for word in s1.split()][::-1]
+# s1 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+# lst = list(s1)
+# lst = [word for word in s1.split()][::-1]
 # print(lst)
 
 # for i in range(len(lst)):
@@ -149,8 +138,7 @@ lst = [word for word in s1.split()][::-1]
 # lst.insert(2, 2222)
 # print(lst)
 
-print(lst.index('sit'))
->>>>>>> f964908 (Initial commit)
+# print(lst.index('sit'))
 """
 Отсортировать лист
 """
@@ -176,19 +164,6 @@ print(lst.index('sit'))
 """
 Словарь
 """
-<<<<<<< HEAD
-my_dict2 = {
-    'name': 'Alex',
-    'last_name': 'Smith',
-    'age': 25,
-    'dep': 'DEV'
-}
-my_dict2.setdefault('salary', 5000)
-# my_dict2['salary'] = 1000
-x = my_dict2.setdefault('salary', 10000)
-
-print(my_dict2)
-=======
 # my_dict2 = {
 #     'name': 'Alex',
 #     'last_name': 'Smith',
@@ -200,7 +175,17 @@ print(my_dict2)
 # x = my_dict2.setdefault('salary', 10000)
 
 # print(my_dict2)
->>>>>>> f964908 (Initial commit)
+# my_dict2 = {
+#     'name': 'Alex',
+#     'last_name': 'Smith',
+#     'age': 25,
+#     'dep': 'DEV'
+# }
+# my_dict2.setdefault('salary', 5000)
+# my_dict2['salary'] = 1000
+# x = my_dict2.setdefault('salary', 10000)
+
+# print(my_dict2)
 # my_dict2['salary'] = 5000
 # print(my_dict2)
 # print(my_dict2.pop('salary'))
