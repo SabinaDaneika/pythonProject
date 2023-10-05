@@ -9,6 +9,3 @@ def multiply(x,y):
 
 def divide(x,y):
     return x / y
-
-def divide_2(x,y):
-    return x % y
